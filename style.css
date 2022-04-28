@@ -1,3 +1,5 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,900;1,400&display=swap');
 /* navbar */
 .navbar-toggler {
   border: 0 !important;
@@ -218,4 +220,28 @@
 .from-left.appear,
 .from-right.appear {
   transform: translateX(0);
+}
+/* scholar section */
+.scholar{
+  background: url(worldmap.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+}
+.scholar-title{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+
+}
+.country{
+  padding-right: .4 em;
+  padding-left: .4 em;
+  font-size: 2.5 em;
+  -webkit-text-stroke:1px #ffffff;
+  color: transparent;
+  display: inline;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
 }
